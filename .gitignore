@@ -1,0 +1,26 @@
+# 각 프로젝트 빌드 디렉토리 무시
+*/build/
+
+# CMake 빌드 아티팩트 무시
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# FetchContent / ExternalProject 내려받은 외부 라이브러리 무시
+build/_deps/
+*/build/_deps/
+
+# 오브젝트 / 실행 파일 무시
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# IDE/에디터 설정 무시
+.vscode/
+.idea/
